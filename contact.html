@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang='cs'>
+<head>
+
+<title>Kontakty</title>
+          <meta charset='utf-8'>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+<div id="main">
+  <div id="interior">
+    <div id="top">
+          <div id="logo"><img src="images/logo.jpg" width="187"  alt="Company Name"></div>
+      <div id="slogan"><img src="images/slogan.jpg" width="465" alt="Company slogan" ></div>
+    </div>
+    <div class="clear"></div>
+    <div id="mid">
+      <div id="left">
+        <div id="navbar">
+          <ul>
+           
+            <li class="active"><a href="about.html">O mně</a></li>
+            <li class="active"><a href="services.html" >O výuce</a></li>
+            <li class="active"><a href="contact.html" class="link active">Kontakty</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="maintext">
+        <h1>Kontaktujte</h1>
+        <p>Veškeré dotazy můžete posílat e-mailem --- <br> nebo volejte  --- </p>
+          <p>Taky můžete využit on-line formu:</p>
+        <form id="form1" name="form1" method="post" action="process.php">
+          <label>Jméno:<br>
+          <input name="name" type="text" id="name">
+          </label>
+          <p>
+            <label>Email:<br>
+            <input name="email" type="email" id="email">
+            </label>
+          </p>
+          <p>
+            <label>Váš dotaz:<br>
+            <textarea name="comments" cols="30" rows="4" id="comments"></textarea>
+            </label>
+          </p>
+          <p>
+            <input type="submit" name="Submit" value="Send" >
+          </p>
+        </form>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+<div id="footer"> &copy; Natalia Burunova
+
+
+</div>
+</body>
+</html>
+
